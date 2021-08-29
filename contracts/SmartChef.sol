@@ -241,6 +241,6 @@ contract SmartChef is Ownable {
         require(_depositFeeBP <= 10000, "updateDepositFeeBP: invalid deposit fee basis points");
         poolInfo[_pid].depositFeeBP = _depositFeeBP;
         depositFeeToBurn = _depositFeeBP;
-    }    
+    }
 
 }
